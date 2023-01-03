@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.container-index-planilla{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    
+    
+}
+
+table{
+    min-height: 40vh;
+}
+
+.table-planilla{
+    width: 900px;
+    margin-top: 20px;
+}
+
+.table-planilla thead{
+    background-color: rgb(41, 38, 38);
+}
+
+.table-planilla thead tr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+}
+
+
+
+.table-planilla tbody tr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+}
+
+
+.buscador-planilla{
+    margin-bottom: 20px;
+    border: 1px solid black;
+}

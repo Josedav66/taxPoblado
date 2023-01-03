@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+    box-sizing: border-box;
+}
+
+.table-requisitos i{
+    color: red;
+}
+
+.container-contact{
+   
+    width: 97% !important;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.container-requisitos{
+    width: 96%;
+    justify-content: center;
+    margin: 40px auto; 
+
+}
+
+.container-requisitos .requisitos{
+    width: 85%;
+    margin: 20px auto;
+}
+
+.container-requisitos .requisitos .title{
+    text-align: center;
+    padding: 20px;
+}
+
+.container-requisitos .requisitos .title h3{
+    font-size: 35px;
+    font-weight: 600;
+   
+}
+
+.container-requisitos .requisitos .text-title{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.container-requisitos .requisitos .table-requisitos ul li{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 30px;
+    list-style: none;
+}
+
+.container-requisitos .requisitos .table-requisitos ul li i{
+    padding-right: 20px;
+}
+
+.container-requisitos .requisitos .table-requisitos ul li span{
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.container-requisitos .requisitos .text-nota{
+    margin-top: 60px;
+}
+
+.container-requisitos .requisitos .text-nota .nota-1{
+    font-size: 18px;
+}
+
+.container-requisitos .requisitos .text-nota .nota-2{
+    font-size: 18px;
+}
+
+.container-requisitos .requisitos .text-nota  .correo-nota{
+    font-size: 14px;
+}
+
+.container-requisitos .container-nota-final {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+.container-requisitos .container-nota-final p{
+    font-size: 14px;
+}
+
+.container-requisitos .container-nota-final .horario span{
+    font-size: 16px;
+}
+
+.container-requisitos .dudas{
+    width: 96%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 100px;
+}
+ 
+.container-requisitos .dudas p{
+    font-size: 18px;
+    text-align: left;
+}
+.container-requisitos .dudas a{
+    text-decoration: none;
+}
+
+.container-requisitos .politica-privacidad{
+    width: 96%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.container-requisitos .politica-privacidad a{
+    text-decoration: none;
+}
+
+.container-requisitos .politica-privacidad p{
+    font-size: 18px;
+    
+}

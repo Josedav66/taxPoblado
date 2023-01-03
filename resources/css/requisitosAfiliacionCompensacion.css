@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+
+    box-sizing: border-box;
+}
+
+
+.container-compensacion {
+    width: 96.3%;
+    margin: auto;
+
+}
+
+.container-compensacion i{
+    color: red;
+}
+
+
+.container-compensacion .title-compensacion{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.container-compensacion .title-compensacion h3{
+    
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.container-compensacion .title-compensacion p{
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.container-compensacion .requisito-compañero{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.container-compensacion .requisito-compañero h4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.container-compensacion .requisito-compañero p i{
+   
+    padding-right: 10px;
+}
+
+.container-compensacion .requisito-hijos{
+    width: 80%;
+    margin-top: 10px;
+    margin:  40px auto;
+}
+
+.container-compensacion .requisito-hijos h4{
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-compensacion .requisito-hijos p i{
+    padding-right: 10px;
+}
+
+.container-compensacion .nota{
+    width: 80%;
+    margin: auto;
+}
+
+.container-compensacion .nota p{
+    font-size: 18px;
+}
+
+
+.container-compensacion .container-nota-final{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.container-compensacion .container-nota-final p{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-compensacion .dudas{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ 
+.container-compensacion .dudas p{
+    font-size: 18px;
+    text-align: left;
+}
+.container-compensacion .dudas a{
+    text-decoration: none;
+}
+
+.container-compensacion .politica-privacidad{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    
+}
+
+.container-compensacion .politica-privacidad a{
+    text-decoration: none;
+}
+
+.container-compensacion .politica-privacidad p{
+    font-size: 18px;
+    
+}

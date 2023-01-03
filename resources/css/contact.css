@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+
+}
+
+.container-contact{
+    width: 100%;
+    background-color: #181818;
+    color: #fff;
+    margin: auto;
+
+}
+.container-contact{
+    transform: translateY(200px);
+}
+
+.container-contact{
+    min-width: 1300px;
+    justify-content: center;
+    transform: translateX(-150px)!important;
+    color: #fff;
+  
+}
+
+.container-contact .logo{
+    transform: translateY(50px);
+}
+
+.container-contact .logo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    
+}
+
+.container-contact .logo span{
+    color: #dbd810;
+}
+
+.container-contact .contact-wrapper{
+    box-shadow: 0 0 20px 0 rgba(6,7,12,0.40);
+}
+
+.container-contact .contact-wrapper > *{
+    padding: 20px;
+}
+
+.container-contact .contact-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-contact .contact-wrapper > *{
+    padding: 2em;
+}
+
+
+.container-contact .contact-wrapper .contact-form{
+    background-color: #222222;
+    color: #fff;
+}
+
+.contact-form{
+    padding-bottom: 20px;
+}
+
+.contact-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block{
+    grid-column: 1 / 3;
+}
+
+
+.container-contact .contact-wrapper .contact-form form p{
+    margin: 0;
+    padding: 1em;
+    font-weight: 600;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #f1de2f;
+}
+
+.contact-form form button{
+    background-color: #f5f118;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    color: black;
+    font-weight: 700;
+}
+
+
+
+.contact-info{
+    background-color: black;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info .logo img{
+   
+    border-radius: 5%;
+    width: 140px;
+}
+
+.contact-info ul li {
+    padding: .3em;
+}
+
+.contact-form form p strong{
+    color:red;
+}
+
+.contact-form .checkbox{
+    text-align: left;
+}
+
+.contact-form .checkbox .checkboxButton{
+    text-align: left;
+    width: 30px;
+    transform: translateX(-8px);
+}
+
+.contact-form .checkbox label{
+    font-size: 20px;
+}
+
+.contact-form .checkbox a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #dbd810;
+}
+
+.contact-form h3{
+    color: rgb(234, 238, 16);
+}

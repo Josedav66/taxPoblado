@@ -1,0 +1,177 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navbar{
+    
+    margin: 20px 60px;
+}
+
+.navbar .collapse ul{
+    padding-left: 40px;
+    
+}
+
+/*Tarifas container*/
+
+.container-tarifas{
+    width: 100%;
+    background-color: #fff;
+}
+
+.container-tarifas .row-tarifas{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-tarifas .row-tarifas .title-tarifas{
+    margin-bottom: 40px;
+}
+.title-tarifas h1{
+    font-weight: 600;
+}
+
+.container-tarifas .contenido-tarifas-tradicional h4{
+    margin-left: 30px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 580;
+}
+
+.container-tarifas{
+    margin-top: 30px;
+    margin-left: 80px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    
+}
+
+.contenido-tarifas-tradicional table thead {
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(194, 176, 17);
+    width: 50%;
+}
+
+
+
+table{
+    width: 100%;
+    margin-left: 30px
+}
+
+th{
+    font-size: 17px;
+    align-items: center;
+    padding: 10px;
+    width: 50%;
+    
+}
+td{
+    font-size: 15px;
+    padding: 10px;
+    width: 50%;
+}
+
+hr{
+    margin-left: 30px;
+}
+
+
+.viaje-ocasional thead tr th{
+    width: 40px;
+    text-align: center;
+    padding-right: 50px;
+    margin-left: 20px;
+ 
+}
+
+.viaje-ocasional tbody tr td{
+    width: 40px;
+    text-align: center;
+    padding-right: 60px;
+}
+
+.ciudades-principales thead tr th{
+    width: 40px;
+    text-align: center;
+    padding-right: 50px;
+    margin-left: 20px;
+ 
+}
+
+.ciudades-principales tbody tr td{
+    width: 40px;
+    text-align: center;
+    padding-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+/*Modal container
+
+.contenedor-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+button{
+    background-color: rgb(185, 185, 69);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    color: black;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+.container-modal{
+    
+    display: flex;
+    background: rgba(0,0,0,0.8);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: 1s;
+}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;
+    transition: 1s;
+}
+
+.modale{
+    position: absolute;
+    background-color: #fff;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+
+.modale input{
+    border-color: black;
+}
+
+
+*/
